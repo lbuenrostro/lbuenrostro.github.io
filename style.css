@@ -1,0 +1,74 @@
+body {
+  /* background-color: #e4f39f; */
+  /* color: #020005; */
+  font-family: "Quicksand", sans-serif;
+  background-image: url("bg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h3 {
+  font-family: "Indie Flower", sans-serif;
+  color: #fcf5a5;
+  background-color: #8d478a;
+  font-weight: bold;
+  padding: 12px;
+  text-align: center;
+  border-radius: 12px;
+}
+
+h3 {
+  font-weight: bolder;
+}
+
+p {
+  font-size: 1.35em;
+  font-weight: bold;
+  text-align: justify;
+}
+
+.info,
+.bio {
+  background-color: #b9a8ce;
+  padding: 8px;
+  border-radius: 12px;
+}
+
+a {
+  color: #530d50;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 3px solid #530d50;
+  margin: 1em 0;
+  padding: 0;
+}
+
+.container {
+  background-color: rgba(255, 251, 204, 0.7);
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.portfolio-image {
+  width: 100%;
+  padding: 8px 12px;
+}
+
+.indent {
+  padding: 1.2em;
+}
+
+.btn {
+  background-color: #8d478a;
+  font-family: "Indie Flower", sans-serif;
+  color: #fcf5a5;
+}
