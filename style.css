@@ -63,12 +63,16 @@ hr {
   padding: 8px 12px;
 }
 
-.indent {
+/* .indent {
   padding: 1.2em;
-}
+} */
 
 .btn {
   background-color: #8d478a;
   font-family: "Indie Flower", sans-serif;
   color: #fcf5a5;
+}
+
+img {
+  border-radius: 100px 100px 100px 100px;
 }
