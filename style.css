@@ -30,8 +30,7 @@ p {
     text-align: justify;
 }
 
-.info,
-.bio {
+.info {
     background-color: #b9a8ce;
     padding: 8px;
     border-radius: 12px;
@@ -69,5 +68,5 @@ hr {
 }
 
 img {
-    border-radius: 45px 45px 45px 45px;
+    border-radius: 5px 5px 5px 5px;
 }
