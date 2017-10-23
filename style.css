@@ -70,3 +70,7 @@ hr {
 img {
     border-radius: 5px 5px 5px 5px;
 }
+
+.sentence {
+    font-size: 19px;
+}
