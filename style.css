@@ -31,7 +31,8 @@ p {
 }
 
 .info {
-    background-color: #b9a8ce;
+    background-color: rgba(204, 173, 216, 0.7);
+    /* background-color: #b9a8ce; */
     padding: 8px;
     border-radius: 12px;
 }
@@ -67,10 +68,11 @@ hr {
     padding: 10px;
 }
 
-img {
+img,
+.pictures {
     border-radius: 5px 5px 5px 5px;
 }
 
-.sentence {
-    font-size: 19px;
+.pictures {
+    text-align: center;
 }
