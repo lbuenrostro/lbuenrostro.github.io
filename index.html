@@ -25,29 +25,33 @@
                 </h1>
             </div>
         </div>
-        <div class="row">
-            <center>
-                <div class="col-lg-12">
-                    <a href="#2018" class="btn btn-lg" role="button">2018 Graduation</a>
-                    <a href="#BaseCamp" class="btn btn-lg" role="button">Base Camp</a>
-                    <a href="#contacts" class="btn btn-lg" role="button">Contact Me</a>
-                    <a href="#Programming Language" class="btn btn-lg" role="button">Programming Language</a>
-                    <a href="#Projects / Video" class="btn btn-lg" role="button">Projects/Video</a>
-                    <a href="#Modified Games" class="btn btn-lg" role="button">Modified Games</a>
-                    <a href="#Websites" class="btn btn-lg" role="button">Websites</a>
-                    <br />
-                </div>
-            </center>
+        <div class="row padded-row">
+            <button type="button" id="Auto-btn" class="btn btn-default">AUTOBIOGRAPHY
+            </button>
+            <button type="button" id="Graduation-btn" class="btn btn-default">2018 Graduation
+            </button>
+            <button type="button" id="Base-btn" class="btn btn-default">Base Camp(student)
+            </button>
+            <button type="button" id="Contact-btn" class="btn btn-default">Contact Me
+            </button>
+            <button type="button" id="Programming-btn" class="btn btn-default">Programming Language
+            </button>
+            <button type="button" id="ProjectsVideos-btn" class="btn btn-default">Projects/Videos
+            </button>
+            <button type="button" id="ModifiedGames-btn" class="btn btn-default">Modified Games
+            </button>
+            <button type="button" id="Websites-btn" class="btn btn-default"> Websites
+            </button>
         </div>
-        <div class="row">
+        <div class="row" id="Auto-div" hidden>
             <div class="col-lg-12">
                 <h3>
                     <center>--AUTOBIOGRAPHY--</center>
                 </h3>
                 <div class="info">
                     <p>
-                        <img src="lisa.jpg" width="147" height="245" align="left">I am Lizeth Buenrostro, Base Camp Coding Academy student, who was nominated for 2018 graduation class;
-                        an 18-year-old from Bruce, Ms that comes from a nuclear family with strong cultural traditions, and
+                        <img src="images/lisa.jpg" width="147" height="245" align="left">I am Lizeth Buenrostro, Base Camp Coding Academy student, who was nominated for 2018 graduation class;
+                        an 19-year-old from Bruce, Ms that comes from a nuclear family with strong cultural traditions, and
                         the first one in the family to have the chance for a better life. I was motivated by my Digital Media
                         teacher, Mrs. Powell, to apply for Base Camp, her advice was the best I could have ever taken. After
                         two important interviews, I was welcomed into Base Camp. I was asked if a had any experience in coding
@@ -64,8 +68,10 @@
                         software developer that works hard and has dedicaiton. </p>
                 </div>
             </div>
+        </div>
+        <div class="row" id="Graduation-div" hidden>
             <div class="col-lg-12">
-                <h3 id="2018">
+                <h3>
                     <center>--2018 GRADUATION--</center>
                 </h3>
                 <div class="info">
@@ -92,17 +98,19 @@
                     </p>
                 </div>
             </div>
+        </div>
+        <div class="row" id="Base-div" hidden>
             <div class="col-lg-12">
-                <h3 id="BaseCamp">
+                <h3>
                     <center>--Base Camp(student)--</center>
                 </h3>
                 <div class="info">
                     <blockquote>"Life doesn’t require that we be the best, only that we try our best. —H. Jackson Brown Jr."</blockquote>
                     <p>
                         <p>
-                            <img src="senator.png" width="340" height="240">
-                            <img src="classroom.png" width="300" height="200">
-                            <img src="Bowling.png" width="340" height="240">
+                            <img src="images/senator.png" width="340" height="240">
+                            <img src="images/classroom.png" width="300" height="200">
+                            <img src="images/Bowling.png" width="340" height="240">
                         </p>
                         <p class="clas">
                             Base Camp has been like a roller coaster since day one. Meeting knew people making contacts entering a work field full of
@@ -119,9 +127,9 @@
                 </div>
             </div>
         </div>
-        <div class="row">
+        <div class="row" id="Contact-div" hidden>
             <div class="col-lg-6">
-                <h3 id="contacts">
+                <h3>
                     <center>--CONTACT Me--</center>
                 </h3>
                 <div class="info">
@@ -149,10 +157,9 @@
             </div>
         </div>
 
-
-        <div class="row">
+        <div class="row" id="Programming-div" hidden>
             <div class="col-lg-12">
-                <h3 id="Programming Language">
+                <h3>
                     <center>--PROGRAMMING LANGUAGE--</center>
                 </h3>
                 <div class="info">
@@ -175,10 +182,9 @@
                 </div>
             </div>
         </div>
-
-        <div class="row">
+        <div class="row" id="ProjectsVideos-div" hidden>
             <div class="col-lg-12">
-                <h3 id="Projects / Video">
+                <h3>
                     <center>--PROJECTS / VIDEO--</center>
                 </h3>
                 <div class="info">
@@ -219,10 +225,11 @@
 
                 </div>
             </div>
+        </div>
 
-
+        <div class="row" id="ModifiedGames-div" hidden>
             <div class="col-lg-12">
-                <h3 id="Modified Games">
+                <h3>
                     <center>--MODIFIED GAMES--</center>
                 </h3>
                 <div class="info">
@@ -234,13 +241,13 @@
                     <p class="indent">A graphical user interface (GUI) is a human-computer interface (a way for humans to interact with computers)
                         that uses windows, icons and menus and which can be manipulated by a mouse (and often to a limited
                         extent by a keyboard as well).</p>
-                    <img src="gui.png" width="200" height="500">
-                    <img src="core_gui.png" width="325" height="300">
+                    <img src="images/gui.png" width="200" height="500">
+                    <img src="images/core_gui.png" width="325" height="300">
                     <p class="indent">With this information BCCA students had to modify a GUI-Tetris game by fixing or finishing some of the
                         code
                     </p>
                     <br />
-                    <hr>
+                    <hr />
                     <p>
                         <i>
                             <super>Snake Game</super>
@@ -250,7 +257,7 @@
                         as possible without colliding into yourself. This is very easy in the early phase of the game, but
                         is increasingly more difficult as the length of the snake grows.
                     </p>
-                    <img src="snake.png" width="525" height="445">
+                    <img src="images/snake.png" width="525" height="445">
                     <p class="indent">This game was all written in python, We define a class Player, which holds the player's position on the
                         screen and the speed by which it moves. In addition, we define the actions a Player instance, can
                         do (movements).
@@ -258,16 +265,16 @@
                 </div>
             </div>
         </div>
-        <div class="row">
+        <div class="row" id="Websites-div" hidden>
             <div class="col-lg-12">
-                <h3 id="Websites">
+                <h3>
                     <center>--Websites--</center>
                 </h3>
                 <div class="info">
                     <p>
-                        <img src="BaseCampWeb.png" width="335" height="235">
-                        <img src="BaseMiddle.png" width="335" height="235">
-                        <img src="BaseCamp.png" width="335" height="235">
+                        <img src="images/BaseCampWeb.png" width="335" height="235">
+                        <img src="images/BaseMiddle.png" width="335" height="235">
+                        <img src="images/BaseCamp.png" width="335" height="235">
                     </p>
                     <p>
                         <i>
@@ -286,9 +293,9 @@
                             <i class="fa fa-github" aria-hidden="true"></i> Gladiator_JS_LizethBuenrostro @GitHub</a>
                     </p>
                     <p>
-                        <img src="gladiatorGame.png" width="335" height="235">
-                        <img src="Gladiatorgame.png" width="335" height="235">
-                        <img src="GameOver.png" width="335" height="235">
+                        <img src="images/gladiatorGame.png" width="335" height="235">
+                        <img src="images/Gladiatorgame.png" width="335" height="235">
+                        <img src="images/GameOver.png" width="335" height="235">
                     </p>
                     <p>
                         <i>
@@ -302,19 +309,13 @@
                         and css(optional). I made different types of "attack" buttons that would react when click by users.
                         Also, I use html to design and build the website.
                     </p>
-                    <hr />
-                    <p>
-                        <img src="twitterProfile.png" width="500" height="400">
-                        <img src="twitterJavaS.png" width="335" height="235">
-                    </p>
-                    <p>
-                        <i>
-                            <super>BaseCamp Website(html/css)</super>
-                        </i>
-                    </p>
                 </div>
             </div>
         </div>
+    </div>
+    <script src="jquery.js"></script>
+    <script src="vendor/bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+    <script src="index.js"></script>
 </body>
 
 </html>
