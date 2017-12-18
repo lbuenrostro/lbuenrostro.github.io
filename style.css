@@ -42,12 +42,32 @@ a {
     background-color: rgba(255, 251, 204, 0.7);
     margin-top: 0px;
     margin-bottom: 0px;
+    min-height: 100vh;
 }
 .btn {
     background-color: #8d478a;
     font-family: 'Indie Flower', sans-serif;
     color: #fcf5a5;
-    padding: 10px;
+    padding: 18px;
+    font-size: 1.5em;
+}
+
+.btn:active {
+    color: #530d50;
+    font-weight: bolder;
+    background-color: #fcf5a5;
+}
+
+.btn:focus {
+    color: #530d50;
+    font-weight: bolder;
+    background-color: #fcf5a5;
+}
+
+.btn:hover {
+    color: #530d50;
+    font-weight: bolder;
+    background-color: #fcf5a5;
 }
 
 img {
@@ -71,4 +91,12 @@ hr {
     padding-left: 15px;
     padding-right: 15px;
     margin-bottom: 15px;
+}
+
+#center {
+    margin-bottom: 30px;
+    margin-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 1em;
 }
