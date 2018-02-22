@@ -100,6 +100,7 @@ hr {
 }
 
 .padded-row {
+    text-align: center;
     padding-left: 15px;
     padding-right: 15px;
     margin-bottom: 15px;
