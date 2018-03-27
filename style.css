@@ -1,7 +1,6 @@
 body {
     font-family: 'Quicksand', sans-serif;
-    /* background-color: 6f5050; */
-    background-image: url(images/background.jpeg);
+    background-image: url(images/BTC.jpg);
     background-attachment: fixed;
     background-position: top;
     background-size: cover;
@@ -10,7 +9,8 @@ body {
 }
 
 #Auto {
-    color: #fcf5a5;
+    margin-top: 100px;
+    color: #3d1e15;
 }
 
 h1,
@@ -48,7 +48,7 @@ a {
     color: #530d50;
 }
 .container {
-    background-color: rgba(70, 20, 28, 0.789);
+    background-color: rgba(223, 161, 171, 0.582);
     /* background-color: rgba(255, 251, 204, 0.7); */
     /* background-color: BC9E9E; */
     margin-top: 0px;
