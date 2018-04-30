@@ -1,6 +1,6 @@
 body {
     font-family: 'Quicksand', sans-serif;
-    background-image: url(images/BTC.jpg);
+    background-image: url('images/BTC.jpg');
     background-attachment: fixed;
     background-position: top;
     background-size: cover;
@@ -10,7 +10,7 @@ body {
 
 #Auto {
     margin-top: 100px;
-    color: #3d1e15;
+    color: white;
 }
 
 h1,
